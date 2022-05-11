@@ -1,0 +1,108 @@
+import { v4 as uuidv4 } from "uuid";
+function chillHop() {
+  return [
+    {
+      name: "Hotel Lobby Birthday Party",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/10/23fdd99adc3e16abcb67b004ea3e748ebf433a49-1024x1024.jpg",
+      artist: "Aviino, Oliv",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10452",
+      color: ["#92B6EA", "#C974B8"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
+      name: "this again..",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/10/efaa848553d09b4d9fc0752844456e41b34de276-1024x1024.jpg",
+      artist: "SwuM, quickly, quickly",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=8953",
+      color: ["#91D7F4", "#5D3E82"],
+      id: uuidv4(),
+      active: false,
+    },
+
+    {
+      name: "You and I",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/10/0e5bb63f838ff92eeac142aae944e9f678df13c9-1024x1024.jpg",
+      artist: "Melodiesinfonie",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10339",
+      color: ["#D6B6CF", "#D1466F"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "What Was Before",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-1024x1024.jpg",
+      artist: "Philanthrope, Leavv",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9923",
+      color: ["#9ABF92", "#4D868A"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Beaver Creek",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+      artist: "Aso, Middle School, Aviino",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Daylight",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+      artist: "Aiguille",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Keep Going",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+      artist: "Swørn",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Nightfall",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+      artist: "Aiguille",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Reflection",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
+      artist: "Swørn",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Under the City Stars",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
+      artist: "Aso, Middle School, Aviino",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: false,
+    },
+  ];
+}
+
+export default chillHop;

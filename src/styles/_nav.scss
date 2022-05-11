@@ -1,0 +1,94 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    background: transparent;
+    color: rgb(107, 107, 107);
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 2px solid rgb(65, 65, 65);
+    transition: all 0.3s ease;
+    &:hover {
+      background: rgb(255, 255, 255);
+      color: #000;
+    }
+  }
+  .library-active {
+    background: rgb(255, 255, 255);
+    color: #000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    button {
+      z-index: 10;
+    }
+  }
+}
+
+.center {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: linear-gradient(to bottom, #4e4e4e, #111111);
+  border-radius: 200px;
+  box-shadow: 0px 0px 0px 4px #353535;
+  transition: 0.5s ease;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: inherit;
+  width: 40px;
+  background: linear-gradient(to bottom, #0a0a0a, #333333);
+  border-radius: 200px;
+  transform: scale(0.98, 0.96);
+  box-shadow: 0px 0px 0px 2px #4b4b4b;
+  transition: 0.5s ease;
+}
+
+input:checked[type="checkbox"]::before {
+  left: 20px;
+}
+
+input[type="checkbox"]::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 10px;
+  height: 4px;
+  width: 4px;
+  background: linear-gradient(to bottom, #696969, #111111);
+  border-radius: 200px;
+  transform: scale(0.98, 0.96);
+  box-shadow: 0px 0px 0px 2px #4b4b4b;
+  transition: 0.5s ease;
+}
+
+input:checked[type="checkbox"]::after {
+  left: 30px;
+  background: #419260;
+  box-shadow: 0 0 15px #419260, 0 0 20px #018d37;
+}
+
+input:checked {
+  background: linear-gradient(0deg, #419260, #018d37);
+  box-shadow: 0px 0px 0px 4px #353535, 0px 0px 40px #419260;
+}
